@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>렛츠서울</title>
+    <meta name="author" content="렛츠서울" />
+    <meta name="description" content="서울 장소 큐레이션 서비스" />
+    <meta
+      name="keywords"
+      content="렛츠서울, 맛집추천, 맛집큐레이션, 맛집지도"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="inner">
+        <div class="nav-container">
+          <h1 class="nav-title">테마 지도</h1>
+          <button class="nav-contact">Contact</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="category">
+        <div class="inner">
+          <div class="category-container">
+            <h2 class="category-title">내가 원하는 태그를 선택해보세요</h2>
+            <div class="category-list">
+            <button class="category-item">이야기 하기</button
+            ><button class="category-item">책읽기</button
+            ><button class="category-item">일하기</button
+            ><button class="category-item">공부하기</button
+            ><button class="category-item">쉬기</button
+            ><button class="category-item">아침식사</button
+            ><button class="category-item">점심식사</button
+            ><button class="category-item">저녁식사</button>
+           
+          </div>
+        </div>
+      </section>
+
+      <!-- 카테고리 -->
+      <div id="map" style="width:500px;height:400px;"></div>
+      <!-- 카카오지도 -->
+    </main>
+    <script type="text/javascript" 
+    src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ebd625c0e141258b70d9948b1a7830ff"></script>
+<script src="script.js" ></script>  
+</body>
+</html>
